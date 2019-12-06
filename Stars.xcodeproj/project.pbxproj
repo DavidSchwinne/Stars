@@ -13,6 +13,9 @@
 		B6C55C0C2399F5F2001D37CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C55C0A2399F5F2001D37CE /* Main.storyboard */; };
 		B6C55C0E2399F5F3001D37CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C55C0D2399F5F3001D37CE /* Assets.xcassets */; };
 		B6C55C112399F5F3001D37CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C55C0F2399F5F3001D37CE /* LaunchScreen.storyboard */; };
+		B6C55C192399FDEF001D37CE /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C55C182399FDEF001D37CE /* Star.swift */; };
+		B6C55C1C2399FEC6001D37CE /* StarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C55C1B2399FEC6001D37CE /* StarController.swift */; };
+		B6C55C1F239A05A7001D37CE /* StarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C55C1E239A05A7001D37CE /* StarTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B6C55C0D2399F5F3001D37CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C55C102399F5F3001D37CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6C55C122399F5F3001D37CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C55C182399FDEF001D37CE /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		B6C55C1B2399FEC6001D37CE /* StarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarController.swift; sourceTree = "<group>"; };
+		B6C55C1E239A05A7001D37CE /* StarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +65,31 @@
 				B6C55C042399F5F2001D37CE /* AppDelegate.swift */,
 				B6C55C062399F5F2001D37CE /* SceneDelegate.swift */,
 				B6C55C082399F5F2001D37CE /* StarsViewController.swift */,
+				B6C55C1E239A05A7001D37CE /* StarTableViewCell.swift */,
+				B6C55C1A2399FEAD001D37CE /* Model */,
+				B6C55C1D2399FF98001D37CE /* Controllers */,
 				B6C55C0A2399F5F2001D37CE /* Main.storyboard */,
 				B6C55C0D2399F5F3001D37CE /* Assets.xcassets */,
 				B6C55C0F2399F5F3001D37CE /* LaunchScreen.storyboard */,
 				B6C55C122399F5F3001D37CE /* Info.plist */,
 			);
 			path = Stars;
+			sourceTree = "<group>";
+		};
+		B6C55C1A2399FEAD001D37CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6C55C182399FDEF001D37CE /* Star.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6C55C1D2399FF98001D37CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6C55C1B2399FEC6001D37CE /* StarController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C55C092399F5F2001D37CE /* StarsViewController.swift in Sources */,
+				B6C55C1F239A05A7001D37CE /* StarTableViewCell.swift in Sources */,
 				B6C55C052399F5F2001D37CE /* AppDelegate.swift in Sources */,
+				B6C55C1C2399FEC6001D37CE /* StarController.swift in Sources */,
 				B6C55C072399F5F2001D37CE /* SceneDelegate.swift in Sources */,
+				B6C55C192399FDEF001D37CE /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
